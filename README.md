@@ -1,18 +1,13 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Desafio do Banco Digital com Java e Orientação a Objetos
 
-## Folder Structure
+Criar uma classe Cliente com um construtor que recebe um nome e inicializa uma lista de contas vazia.
 
-The workspace contains two folders by default, where:
+## Funcionamento
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+ Criamos a classe Cliente com um campo nome e um campo contas do tipo List<Conta>. No construtor, atribuímos o nome recebido como parâmetro ao campo nome e inicializamos a lista contas com um novo ArrayList<>. Além disso, adicionamos imports necessários para usar a classe ArrayList e a interface List
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+ 
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+                    
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
